@@ -22,26 +22,7 @@ zephyr_compile_definitions(
   )
 
 set(stm_socs
-  stm32c0x
-  stm32f0x
-  stm32f1x
-  stm32f2x
-  stm32f3x
-  stm32f4x
-  stm32f7x
-  stm32g0x
   stm32g4x
-  stm32h5x
-  stm32h7x
-  stm32l0x
-  stm32l1x
-  stm32l4x
-  stm32l5x
-  stm32mp1x
-  stm32u5x
-  stm32wbax
-  stm32wbx
-  stm32wlx
   )
 
 if(CONFIG_CPU_CORTEX_M4)
